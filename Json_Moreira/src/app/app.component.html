@@ -1,0 +1,9 @@
+<h1>Mi prueba</h1>
+
+<div *ngIf="loading">Cargando JSON...</div>
+
+<div *ngIf="error">{{ error }}</div>
+
+<div *ngIf="jsonData">
+  <pre>{{ jsonData | json }}</pre>  
+</div>
